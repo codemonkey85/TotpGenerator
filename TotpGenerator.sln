@@ -1,9 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 25.0.1700.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TotpGenerator", "TotpGenerator\TotpGenerator.csproj", "{634284D0-3546-4EB9-A7A7-E43F8D429DB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TotpGenerator", "TotpGenerator\TotpGenerator.csproj", "{634284D0-3546-4EB9-A7A7-E43F8D429DB7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{43B3622F-D780-4924-948D-4187746A3655}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
