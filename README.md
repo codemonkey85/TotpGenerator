@@ -1,4 +1,4 @@
 # TotpGenerator
-Just a fun experiment
+Just a fun experiment!
 
-<a href="https://codemonkey85.github.io/TotpGenerator/" target="_blank">https://codemonkey85.github.io/TotpGenerator/</a>
+[Check it out live!](https://codemonkey85.github.io/TotpGenerator/)
