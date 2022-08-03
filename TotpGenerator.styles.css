@@ -1,1 +1,29 @@
 /* /Pages/Index.razor.rz.scp.css */
+.otp-label[b-eho2l8jl4k] {
+    margin: 5px;
+    padding: 5px;
+    font-size: large;
+}
+
+.secret-input[b-eho2l8jl4k] {
+    margin: 5px;
+    padding: 5px;
+    width: 350px;
+}
+
+.set-secret-button[b-eho2l8jl4k] {
+    margin: 5px;
+    padding: 5px;
+}
+
+.otp-code[b-eho2l8jl4k] {
+    margin: 5px;
+    padding: 5px;
+    font-size: large;
+}
+
+.time-remaining[b-eho2l8jl4k] {
+    margin: 5px;
+    padding: 5px;
+    font-size: large;
+}
