@@ -1,9 +1,24 @@
 ﻿@page "/"
 
-<PageTitle>Index</PageTitle>
+<h1>TOTP Code</h1>
 
-<h1>Hello, world!</h1>
+<div>
+    <div>
+        <label for="secretInput">Enter your secret:</label>
+    </div>
+    <div>
+        <input id="secretInput" type="text" @bind=secret />
+    </div>
+</div>
 
-Welcome to your new app.
+<div>
+    <button type="button" @onclick="SetSecret">Get Codes</button>
+</div>
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+<div>
+    Code: @otpCode
+</div>
+
+<div>
+    Time: @remainingTime
+</div>
