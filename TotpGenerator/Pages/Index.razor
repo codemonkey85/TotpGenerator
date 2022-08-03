@@ -4,21 +4,21 @@
 
 <div>
     <div>
-        <label for="secretInput">Enter your secret:</label>
+        <label for="secretInput" class="otp-label">Enter your secret:</label>
     </div>
     <div>
-        <input id="secretInput" type="text" @bind=secret />
+        <input id="secretInput" class="secret-input" type="text" @bind=secret />
     </div>
 </div>
 
 <div>
-    <button type="button" @onclick="SetSecret">Get Codes</button>
+    <button type="button" class="set-secret-button" @onclick="SetSecret">Get Codes</button>
 </div>
 
-<div>
-    Code: @otpCode
+<div class="otp-code">
+    Code: @otpCode?.ToString("000 000")
 </div>
 
-<div>
+<div class="time-remaining">
     Time: @remainingTime
 </div>

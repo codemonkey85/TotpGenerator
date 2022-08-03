@@ -8,7 +8,7 @@ public partial class Index
 
     private string secret = string.Empty;
 
-    private string otpCode = string.Empty;
+    private int? otpCode;
     private string remainingTime = string.Empty;
 
     protected override void OnInitialized() => timer.Elapsed += TimerElapsed;
@@ -34,7 +34,13 @@ public partial class Index
         {
             return;
         }
-        otpCode = $"{totp.ComputeTotp(DateTime.UtcNow):000 000}";
+        otpCode = null;
+        var codeString = totp.ComputeTotp(DateTime.UtcNow);
+        if (!int.TryParse(codeString, out var otpCodeNum))
+        {
+            return;
+        }
+        otpCode = otpCodeNum;
         remainingTime = $"{totp.RemainingSeconds()} second(s)";
         StateHasChanged();
     }
