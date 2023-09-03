@@ -42,7 +42,7 @@
       "System.Text.Encodings.Web.dll": "sha256-KwxETxZvEIN+F2cFoOmczAYLy\/vNVDN4Xr11FOMxkVM=",
       "System.Text.Json.dll": "sha256-QSHgQIPmj7CRsvRoAh8tjtAiGghFzxiLcS3nS0jJpVY=",
       "System.Threading.dll": "sha256-AeCMzXAH7DzDgbWUBLJRvCEiSqCm3JL8VmFfNKr46lo=",
-      "TotpGenerator.dll": "sha256-KuKjnl5JK4W0MtzffV+4PXvZ0CaejCBc2BOgVTukbQE="
+      "TotpGenerator.dll": "sha256-k2Vqy7U0E4dmYUtsBfNNeDGl11xiHH0T0lFplw\/fiPA="
     },
     "extensions": null,
     "lazyAssembly": null,
