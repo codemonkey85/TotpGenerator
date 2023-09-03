@@ -1,18 +1,30 @@
 ﻿@page "/"
 
-<h1>TOTP Code</h1>
+<h1>
+    TOTP Code
+</h1>
 
 <div>
     <div>
-        <label for="secretInput" class="otp-label">Enter your secret:</label>
+        <label for="secretInput"
+               class="otp-label">
+            Enter your secret:
+        </label>
     </div>
     <div>
-        <input id="secretInput" class="secret-input" type="text" @bind=secret />
+        <input id="secretInput"
+               class="secret-input"
+               type="text"
+               @bind=secret />
     </div>
 </div>
 
 <div>
-    <button type="button" class="set-secret-button" @onclick="SetSecret">Get Codes</button>
+    <button type="button"
+            class="set-secret-button"
+            @onclick="SetSecret">
+        Get Codes
+    </button>
 </div>
 
 <div class="otp-code">
